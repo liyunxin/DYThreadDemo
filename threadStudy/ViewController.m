@@ -15,6 +15,8 @@
 #import "DYNSLockDemo.h"
 #import "DYNSConditionLockDemo.h"
 #import "DYSemaphoreDemo.h"
+#import "DYIOSafeDemo.h"
+#import "DYIOSafeDemo2.h"
 
 @interface ViewController ()
 
@@ -31,7 +33,7 @@
     //[[[DYMutexDemo alloc] init] otherTest2];
     //[[[DYNSLockDemo alloc] init] otherTest];
     //[[[DYNSConditionLockDemo alloc] init] otherTest];
-    [[[DYSemaphoreDemo alloc] init] otherTest];
+    [[[DYIOSafeDemo2 alloc] init] otherTest];
     NSLog(@"-------------------");
 }
 

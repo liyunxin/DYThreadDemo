@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F419ABBB236696C90027C70A /* DYIOSafeDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F419ABBA236696C90027C70A /* DYIOSafeDemo.m */; };
+		F419ABBE236698D10027C70A /* DYIOSafeDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = F419ABBD236698D10027C70A /* DYIOSafeDemo2.m */; };
 		F4693E762362C0C900346112 /* DYSemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F4693E752362C0C900346112 /* DYSemaphoreDemo.m */; };
 		F486429A235FF20B00F7A435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4864299235FF20B00F7A435 /* AppDelegate.m */; };
 		F486429D235FF20B00F7A435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F486429C235FF20B00F7A435 /* ViewController.m */; };
@@ -23,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F419ABB9236696C90027C70A /* DYIOSafeDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYIOSafeDemo.h; sourceTree = "<group>"; };
+		F419ABBA236696C90027C70A /* DYIOSafeDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYIOSafeDemo.m; sourceTree = "<group>"; };
+		F419ABBC236698D10027C70A /* DYIOSafeDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYIOSafeDemo2.h; sourceTree = "<group>"; };
+		F419ABBD236698D10027C70A /* DYIOSafeDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYIOSafeDemo2.m; sourceTree = "<group>"; };
 		F4693E742362C0C900346112 /* DYSemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSemaphoreDemo.h; sourceTree = "<group>"; };
 		F4693E752362C0C900346112 /* DYSemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSemaphoreDemo.m; sourceTree = "<group>"; };
 		F4864295235FF20B00F7A435 /* threadStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threadStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +99,10 @@
 				F4A537DF23617525008FF940 /* DYNSConditionLockDemo.m */,
 				F4693E742362C0C900346112 /* DYSemaphoreDemo.h */,
 				F4693E752362C0C900346112 /* DYSemaphoreDemo.m */,
+				F419ABB9236696C90027C70A /* DYIOSafeDemo.h */,
+				F419ABBA236696C90027C70A /* DYIOSafeDemo.m */,
+				F419ABBC236698D10027C70A /* DYIOSafeDemo2.h */,
+				F419ABBD236698D10027C70A /* DYIOSafeDemo2.m */,
 				F4864298235FF20B00F7A435 /* AppDelegate.h */,
 				F4864299235FF20B00F7A435 /* AppDelegate.m */,
 				F486429B235FF20B00F7A435 /* ViewController.h */,
@@ -185,7 +195,9 @@
 				F486429A235FF20B00F7A435 /* AppDelegate.m in Sources */,
 				F4A537E023617525008FF940 /* DYNSConditionLockDemo.m in Sources */,
 				F4693E762362C0C900346112 /* DYSemaphoreDemo.m in Sources */,
+				F419ABBE236698D10027C70A /* DYIOSafeDemo2.m in Sources */,
 				F48642B6236021F100F7A435 /* DYUnfairLockDemo.m in Sources */,
+				F419ABBB236696C90027C70A /* DYIOSafeDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
